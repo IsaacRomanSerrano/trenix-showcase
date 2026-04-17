@@ -155,9 +155,6 @@ El access token vive en memoria del cliente (no en `localStorage`), expiración 
 **Backward compatibility de planes en DB**
 Al añadir nuevos campos al schema del LVM (e.g. `CardioRecommendation`), los planes existentes en base de datos tienen el schema antiguo. `TrainingDayPlan` usa `extra="ignore"` (Pydantic) para silenciar campos obsoletos en reads, mientras que los schemas de output nuevos usan `extra="forbid"` para forzar contratos estrictos en generación.
 
-**Cardio phase-aware**
-El plan de cardio varía según la fase del usuario: volumen → solo objetivo de pasos diarios (7k-10k); recomposición → pasos + 0-2 sesiones LISS opcionales; definición → pasos agresivos (10k-14k) + 2-4 sesiones LISS estructuradas; definición competitiva → HIIT permitido.
-
 ---
 
 ## Repositorio privado
