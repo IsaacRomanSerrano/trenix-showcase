@@ -159,7 +159,7 @@ Al añadir nuevos campos al schema del LVM (e.g. `CardioRecommendation`), los pl
 
 ## Repositorio privado
 
-El código fuente es privado. Este repositorio es una documentación técnica del proyecto para fines de portfolio.
+El código fuente es privado. Este repositorio es una documentación técnica del proyecto con fines de portfolio.
 
 ---
 
