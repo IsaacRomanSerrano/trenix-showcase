@@ -2,7 +2,7 @@
 
 > Mobile-first web platform that generates personalized training and nutrition plans using AI, then adapts them weekly based on real user progress.
 
-**Live demo:** [trenix.net](https://trenix.net)
+**Live:** [trenix.net](https://trenix.net)
 
 ---
 
